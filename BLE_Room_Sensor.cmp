@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501132116+5369~20~ubuntu14.04.1-product   date = Wed 14 Jan 2015 22:33:30 GMT
+Cmp-Mod V01 Created by Cvpcb 0.201501132116+5369~20~ubuntu14.04.1-product   date = Sat 17 Jan 2015 17:04:11 GMT
 
 BeginCmp
 TimeStamp = /5498CB47;
 Reference = BT1;
 ValeurCmp = CR2032;
-IdModule  = timhawes:BK-912;
+IdModule  = timhawes:BAT-HLD-001;
 EndCmp
 
 BeginCmp
@@ -120,10 +120,24 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /5498D8B4;
-Reference = D1;
-ValeurCmp = LED_RGB;
-IdModule  = timhawes:SML-LX0404SIUPGUSB;
+TimeStamp = /54BA63E1;
+Reference = C17;
+ValeurCmp = 1.0uF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BAFC1A;
+Reference = C18;
+ValeurCmp = 12pF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BAFC14;
+Reference = C19;
+ValeurCmp = 12pF;
+IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
@@ -141,9 +155,16 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B9A7B9;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5498D64B;
 Reference = L1;
-ValeurCmp = 4.4nH;
+ValeurCmp = 4.7nH;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
@@ -158,6 +179,20 @@ BeginCmp
 TimeStamp = /5498D8C6;
 Reference = L3;
 ValeurCmp = 3.3nH;
+IdModule  = SMD_Packages:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BA5565;
+Reference = L4;
+ValeurCmp = 10uH;
+IdModule  = SMD_Packages:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BA5796;
+Reference = L5;
+ValeurCmp = 15nH;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
@@ -190,23 +225,9 @@ IdModule  = Transistors_SMD:sot23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5498DD67;
+TimeStamp = /54BAEAE0;
 Reference = R1;
-ValeurCmp = 820R;
-IdModule  = Resistors_SMD:R_0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /5498DDBC;
-Reference = R2;
-ValeurCmp = 680R;
-IdModule  = Resistors_SMD:R_0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /5498DE1C;
-Reference = R3;
-ValeurCmp = 2K2;
+ValeurCmp = 0R;
 IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
@@ -274,6 +295,13 @@ IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B9C11D;
+Reference = R13;
+ValeurCmp = 820R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /5498D521;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
@@ -283,7 +311,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5498C409;
 Reference = U1;
-ValeurCmp = nRF51822;
+ValeurCmp = nRF51822-QFAA;
 IdModule  = Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm;
 EndCmp
 
@@ -320,6 +348,13 @@ TimeStamp = /5498C5CF;
 Reference = X1;
 ValeurCmp = 16MHz;
 IdModule  = timhawes:CX2520DB;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BAFC20;
+Reference = X2;
+ValeurCmp = 32.768kHz;
+IdModule  = timhawes:FC-135;
 EndCmp
 
 EndListe
