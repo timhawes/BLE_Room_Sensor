@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501132116+5369~20~ubuntu14.04.1-product   date = Sat 17 Jan 2015 17:04:11 GMT
+Cmp-Mod V01 Created by Cvpcb 0.201503090816+5484~22~ubuntu14.04.1-product   date = Mon 20 Apr 2015 22:18:08 BST
 
 BeginCmp
 TimeStamp = /5498CB47;
@@ -38,7 +38,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5498D71E;
 Reference = C5;
-ValeurCmp = 2.2nF;
+ValeurCmp = 2.2pF;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
@@ -52,8 +52,8 @@ EndCmp
 BeginCmp
 TimeStamp = /5498C316;
 Reference = C7;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0402;
+ValeurCmp = 4.4uF;
+IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
@@ -85,10 +85,10 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /5498D21A;
+TimeStamp = /54BA63E1;
 Reference = C12;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_1206;
+ValeurCmp = 1.0uF;
+IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
@@ -120,10 +120,10 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /54BA63E1;
+TimeStamp = /5498D21A;
 Reference = C17;
-ValeurCmp = 1.0uF;
-IdModule  = Capacitors_SMD:C_0402;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_1206;
 EndCmp
 
 BeginCmp
@@ -165,35 +165,35 @@ BeginCmp
 TimeStamp = /5498D64B;
 Reference = L1;
 ValeurCmp = 4.7nH;
-IdModule  = SMD_Packages:SMD-0402;
+IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5498D6BA;
 Reference = L2;
 ValeurCmp = 10nH;
-IdModule  = SMD_Packages:SMD-0402;
+IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5498D8C6;
 Reference = L3;
 ValeurCmp = 3.3nH;
-IdModule  = SMD_Packages:SMD-0402;
+IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54BA5565;
 Reference = L4;
 ValeurCmp = 10uH;
-IdModule  = SMD_Packages:SMD-0402;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54BA5796;
 Reference = L5;
 ValeurCmp = 15nH;
-IdModule  = SMD_Packages:SMD-0402;
+IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
@@ -207,21 +207,28 @@ BeginCmp
 TimeStamp = /549A1DAB;
 Reference = P2;
 ValeurCmp = EXT;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FEBAA0;
+Reference = P3;
+ValeurCmp = ANT;
+IdModule  = timhawes:ANT-2.4GHz;
 EndCmp
 
 BeginCmp
 TimeStamp = /5498E8A5;
 Reference = Q1;
 ValeurCmp = MOSFET_N;
-IdModule  = Transistors_SMD:sot23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /549A368B;
 Reference = Q2;
 ValeurCmp = MOSFET_N;
-IdModule  = Transistors_SMD:sot23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
