@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -465,7 +464,7 @@ F 1 "LED" H 1850 1600 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 1850 1700 60  0001 C CNN
 F 3 "" H 1850 1700 60  0000 C CNN
 	1    1850 1700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Q_NMOS_GSD Q1
@@ -880,7 +879,7 @@ F 1 "LED" H 8600 1700 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 8600 1800 60  0001 C CNN
 F 3 "" H 8600 1800 60  0000 C CNN
 	1    8600 1800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R11
@@ -995,7 +994,7 @@ F 1 "LED" H 2550 1650 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 2550 1750 60  0001 C CNN
 F 3 "" H 2550 1750 60  0000 C CNN
 	1    2550 1750
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L VCC #PWR040
