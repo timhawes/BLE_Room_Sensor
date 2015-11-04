@@ -1,4 +1,4 @@
-update=Wed 04 Nov 2015 00:57:25 GMT
+update=Wed 04 Nov 2015 01:31:47 GMT
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,19 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -75,3 +62,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=timhawes
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
