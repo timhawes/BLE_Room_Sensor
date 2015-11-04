@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/sf_Projects/Kicad/urban_moose/urban_moose.sch)
-    (date "Wed 04 Nov 2015 00:50:42 GMT")
+    (date "Wed 04 Nov 2015 00:59:20 GMT")
     (tool "Eeschema 0.201506192325+5795~23~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -295,7 +295,7 @@
       (tstamp 54BA63E1))
     (comp (ref U1)
       (value nRF51822-QFAA)
-      (footprint Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm)
+      (footprint Housings_DFN_QFN:UQFN-48-1EP_6x6mm_Pitch0.4mm)
       (libsource (lib timhawes) (part nRF51822))
       (sheetpath (names /) (tstamps /))
       (tstamp 5498C409))
